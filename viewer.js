@@ -100,7 +100,7 @@ app.post("/accessFavorite", async (request, response) => {
 });
 
 app.listen(portNumber);
-console.log(`Web server started running at http://localhost:${portNumber}`); 
+console.log(`Web server launched`); 
 
 async function fetchPokemon(name) {
     let dashName = name.replace(/\s/g, "-");
